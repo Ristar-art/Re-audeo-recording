@@ -128,7 +128,7 @@ export default function Record() {
   };
 
   return (
-    <View style={styles.container}>      
+    <View style={{width:"100%", height:"100%", display:"flex", alignItems:"center", justufyContent: "center"}}>      
       <Text style={styles.titleText}>Recording Duration: {formatTime(recordingDuration)}</Text>
       <TouchableOpacity onPress={startRecording}>
         <Text style={styles.titleText}>Start Recording</Text>
